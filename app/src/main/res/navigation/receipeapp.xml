@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/receipeapp"
+    app:startDestination="@id/addreceipe">
+
+    <fragment
+        android:id="@+id/addreceipe"
+        android:name="com.example.recipeappfragments_optional.addreceipe"
+        android:label="fragment_addreceipe"
+        tools:layout="@layout/fragment_addreceipe" >
+        <action
+            android:id="@+id/action_addreceipe_to_viewreceipe"
+            app:destination="@id/viewreceipe" />
+    </fragment>
+    <fragment
+        android:id="@+id/viewreceipe"
+        android:name="com.example.recipeappfragments_optional.viewreceipe"
+        android:label="fragment_viewreceipe"
+        tools:layout="@layout/fragment_viewreceipe" >
+        <action
+            android:id="@+id/action_viewreceipe_to_addreceipe"
+            app:destination="@id/addreceipe" />
+    </fragment>
+</navigation>

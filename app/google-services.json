@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "572494583406",
+    "project_id": "recipe-app-fragments",
+    "storage_bucket": "recipe-app-fragments.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572494583406:android:4b323de7eb2a537ce1787f",
+        "android_client_info": {
+          "package_name": "com.example.recipeappfragments_optional"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572494583406-75nl9gqd9c2fn2mcrfq62oeb95ecoqqu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBABEawhLFFBIWeyz1rl0ESEktbHDN6UyA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "572494583406-75nl9gqd9c2fn2mcrfq62oeb95ecoqqu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
